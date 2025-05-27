@@ -1,0 +1,24 @@
+# Terraform 상태 및 캐시 파일
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*.tfplan
+.terraform.lock.hcl
+
+# IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac/Linux 관련
+.DS_Store
+Thumbs.db
+
+# AWS 인증 관련 (실수 방지용)
+credentials
+.aws/
